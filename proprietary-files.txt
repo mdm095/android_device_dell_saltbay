@@ -150,8 +150,8 @@ lib/parameter-framework-plugins/Audio/libtinyamixer-subsystem.so
 lib/parameter-framework-plugins/Audio/libuta-subsystem.so
 lib/parameter-framework-plugins/System/libproperty-subsystem.so
 lib/parameter-framework-plugins/Fs/libfs-subsystem.so
-usr/share/alsa/alsa.conf
-vendor/etc/audio_offload_effects.conf
+#usr/share/alsa/alsa.conf
+#vendor/etc/audio_offload_effects.conf
 
 # GPS
 bin/gpsd
