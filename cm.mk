@@ -9,7 +9,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_NAME := saltbay
+PRODUCT_NAME := cm_saltbay
 PRODUCT_BRAND := Dell
 PRODUCT_MODEL := Venue7 3740 LTE
 PRODUCT_MANUFACTURER := Dell
