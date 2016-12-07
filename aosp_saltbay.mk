@@ -74,11 +74,6 @@ PRODUCT_COPY_FILES += \
     device/dell/saltbay/keylayout/mxt224_key_0.kl:system/usr/keylayout/mrst_keypad.kl
     device/dell/saltbay/keylayout/qwerty.kl:system/usr/keylayout/mrst_keypad.kl
   
-#PRODUCT_COPY_FILES += \
-    device/dell/saltbay/audio/asound.conf:system/etc/asound.conf \
-    device/dell/saltbay/audio/audio_policy.conf:system/etc/audio_policy.conf \
-    device/dell/saltbay/audio/route_criteria.conf:system/etc/route_criteria.conf
-
 # Bluetooth
 PRODUCT_COPY_FILES += \
     device/dell/saltbay/bluetooth/bt_vendor.conf:system/etc/bluetooth/bt_vendor.conf
