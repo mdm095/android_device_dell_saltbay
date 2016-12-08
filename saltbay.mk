@@ -12,6 +12,11 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+ifeq ($(TARGET_PREBUILT_KERNEL),)
+LOCAL_KERNEL := device/dell/saltbay/kernel
+else
+LOCAL_KERNEL := $(TARGET_PREBUILT_KERNEL)
+endif
 
 # Also get non-open-source specific aspects if available
 $(call inherit-product-if-exists, vendor/dell/saltbay/saltbay-vendor.mk)
