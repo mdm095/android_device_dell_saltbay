@@ -43,7 +43,7 @@ TARGET_KERNEL_ARCH := x86_64
 BOARD_KERNEL_IMAGE_NAME := bzImage
 TARGET_KERNEL_CONFIG := x86_64_mrfl_defconfig
 #TARGET_KERNEL_CONFIG := cyanogenmod_x86_64_mrfl_defconfig
-TARGET_PREBUILT_KERNEL := device/dell/saltbay
+TARGET_PREBUILT_KERNEL := device/dell/saltbay/kernel
 KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9/bin
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := x86_64-linux-android-
 
