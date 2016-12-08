@@ -51,7 +51,7 @@ TARGET_DROIDBOOT_LIBS := libintel_droidboot
 
 # Bluetooth
 BOARD_HAVE_BLUETOOTH := true
-BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/dell/saltbay/bluetooth
+#BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/dell/saltbay/bluetooth
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := saltbay,Venue7 3740 LTE
