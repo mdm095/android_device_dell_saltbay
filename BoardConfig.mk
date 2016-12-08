@@ -43,7 +43,7 @@ TARGET_KERNEL_ARCH := x86_64
 BOARD_KERNEL_IMAGE_NAME := bzImage
 TARGET_KERNEL_CONFIG := x86_64_mrfl_defconfig
 #TARGET_KERNEL_CONFIG := cyanogenmod_x86_64_mrfl_defconfig
-TARGET_PREBUILT_KERNEL := device/dell/saltbay/kernel
+TARGET_PREBUILT_KERNEL := device/dell/saltbay
 KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9/bin
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := x86_64-linux-android-
 
@@ -51,7 +51,7 @@ TARGET_DROIDBOOT_LIBS := libintel_droidboot
 
 # Bluetooth
 BOARD_HAVE_BLUETOOTH := true
-#BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/dell/saltbay/bluetooth
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/dell/saltbay/bluetooth
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := saltbay,Venue7 3740 LTE

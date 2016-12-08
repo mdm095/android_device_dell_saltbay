@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-     $(LOCAL_DIR)/aosp_saltbay.mk
+     $(LOCAL_DIR)/saltbay.mk

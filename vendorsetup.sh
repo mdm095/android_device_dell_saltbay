@@ -14,5 +14,5 @@
 # limitations under the License.
 #
 
-add_lunch_combo aosp_saltbay-userdebug
-add_lunch_combo aosp_saltbay-eng
+add_lunch_combo cm_saltbay-userdebug
+add_lunch_combo cm_saltbay-eng
